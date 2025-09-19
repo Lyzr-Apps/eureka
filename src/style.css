@@ -29,3 +29,10 @@ body {
   padding: 2rem;
   text-align: center;
 }
+
+.red-square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 20px auto;
+}

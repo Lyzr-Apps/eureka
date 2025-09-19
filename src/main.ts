@@ -1,4 +1,7 @@
-// Blank TypeScript project - ready for development
-console.log("🚀 Ready to build something amazing!");
+// Create a red square
+const app = document.querySelector<HTMLDivElement>('#app')!
 
-// Your code starts here...
+const redSquare = document.createElement('div')
+redSquare.className = 'red-square'
+
+app.appendChild(redSquare)
